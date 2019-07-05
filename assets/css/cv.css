@@ -242,6 +242,16 @@ main {
 .has-point {
     background-color: #7E459B;
 }
+
+.link_projeto{
+    color: black;
+}
+
+.link_projeto:hover{
+    color: purple; 
+    background-color: whitesmoke;
+}
+
 /* #endregion */
 
 /* #endregion */
