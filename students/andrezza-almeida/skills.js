@@ -1,15 +1,28 @@
 const skillsList = [
-        {skill:'HTML', score:1},
-        {skill:'CSS', score: 2},
-        {skill:'batata', score: 3},
-        {skill:'batata', score: 4},
-        {skill:'batata', score: 5},
-        {skill:'batata', score: 6},
-        {skill:'batata', score: 7},
-        {skill:'batata', score: 8},
-        {skill:'batata', score: 9},
-        {skill:'batata', score: 10}
+        {skill:'HTML', score:9},
+        {skill:'CSS', score: 9},
+        {skill:'SASS', score: 6},
+        {skill:'JAVASCRIPT', score: 8},
+        {skill:'JQUERY', score: 6}, 
+        {skill:'NODE', score: 1}, 
+        {skill:'GIT/GITHUB', score: 8},
+        {skill:'BOOTSTRAP', score: 9},
+        {skill:'REACT', score: 8},
+        {skill:'METODOLOGIAS ÁGEIS', score: 5},
+        {skill:'RESPONSIVIDADE', score: 9},
+        {skill:'UX DESIGN', score: 6},
+        {skill:'TECNOLOGIA ASSISTIVAS', score: 6},
+        {skill:'WORDPRESS', score: 9},
+        {skill:'PHP', score: 3},
+        {skill:'MySQL', score: 3},
+        {skill:'HOSPEDAGEM DE SITE', score: 8},
+        {skill:'FTP', score: 5},
+        {skill:'CONFIGURAÇÃO DE DOMÍNIO', score: 8},
+        {skill:'PHOTOSHOP', score: 9},
+        {skill:'ILUSTRATOR', score: 9},
+        {skill:'INDESIGN', score: 9},
     ]
+     
 
 const skillsListDOM = document.getElementById('skills-list')
 let skillsListHTML = ''
