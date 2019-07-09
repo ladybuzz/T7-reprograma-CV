@@ -1,0 +1,13 @@
+.work__empresa--data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work__descricao {
+  text-align: justify;
+}
+
+.work__empresa--h4 {
+  padding: 0;
+  margin: 0;
+}
