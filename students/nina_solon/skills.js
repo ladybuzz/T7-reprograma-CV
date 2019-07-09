@@ -3,7 +3,7 @@ const skillsList = [
         {skill:'CSS', score: 10},
         {skill:'Sass', score: 10},
         {skill:'Bootstrap', score: 10},
-        {skill:'JavaScript', score: 8},
+        {skill:'JavaScript', score: 9},
         {skill:'jQuery', score: 8},
         {skill:'React', score: 8},
         {skill:'API', score: 7},
