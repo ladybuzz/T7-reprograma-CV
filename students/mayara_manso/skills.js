@@ -12,7 +12,8 @@ const skillsList = [
         {skill:'NODE.JS', score: 4},
         {skill:'UX', score: 9},
         {skill:'PHOTOSHOP', score: 7},
-        {skill:'FIGMA', score: 7}
+        {skill:'FIGMA', score: 7},
+        {skill:'SCRUM', score: 8}
     ]
 
 const skillsListDOM = document.getElementById('skills-list')
