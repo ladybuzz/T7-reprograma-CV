@@ -25,7 +25,10 @@ h5 {
 
 p {
     color: #7E459B;
+}
 
+ul li{
+    color: #7E459B;
 }
 
 address a {
@@ -129,6 +132,9 @@ main {
     align-items: flex-start;
 }
 #intro address li{
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0;
 }
 #intro address img{
     max-height: 2rem;
@@ -245,6 +251,3 @@ main {
 /* #endregion */
 
 /* #endregion */
-
-
-
