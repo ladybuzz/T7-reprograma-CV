@@ -23,7 +23,7 @@ h5 {
     margin-bottom: 4px;
 }
 
-p {
+p , h5{
     color: #7E459B;
 }
 
