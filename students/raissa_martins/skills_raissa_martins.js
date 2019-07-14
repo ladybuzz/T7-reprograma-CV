@@ -3,16 +3,17 @@ const skillsList = [
     {skill:'CSS', score: 10},
     {skill:'Sass', score: 10},
     {skill:'Bootstrap', score: 10},
-    {skill:'JavaScript', score: 9},
+    {skill:'JavaScript', score: 8},
     {skill:'jQuery', score: 8},
     {skill:'React', score: 7},
     {skill:'Git/GitHub', score: 8},
     {skill:'Figma', score: 10},
     {skill:'Photoshop', score: 10},
-    {skill:'Illustrator', score: 8},
+    {skill:'Illustrator', score: 9},
     {skill:'InDesign', score: 7},
     {skill:'Web Design Responsivo', score: 9},
-    
+    {skill:'UX/UI', score: 8},
+    {skill:'Metodologias Ágeis', score: 8},
 ]
 
 const skillsListDOM = document.getElementById('skills-list')
