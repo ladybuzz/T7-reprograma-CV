@@ -1,3 +1,7 @@
+*{
+    text-align: justify;
+}
+
 h1 {
     color: #7D4899;
     font-size: 3rem;
@@ -23,7 +27,17 @@ h5 {
     margin-bottom: 4px;
 }
 
+<<<<<<< HEAD
+h5{
+    color: #7E459B;
+
+} 
+
+
+p {
+=======
 p , h5{
+>>>>>>> 07ffa63806adeb2b2cfdbeddcf200a927ed80348
     color: #7E459B;
 }
 
@@ -33,6 +47,14 @@ ul li{
 
 address a {
     color: white;
+}
+
+li {
+    padding: 3.2px 0;
+}
+
+li img {
+    vertical-align: middle;
 }
 
 .background-DEBBDD {
