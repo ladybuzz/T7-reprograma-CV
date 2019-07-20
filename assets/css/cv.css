@@ -1,7 +1,3 @@
-*{
-    text-align: justify;
-}
-
 h1 {
     color: #7D4899;
     font-size: 3rem;
@@ -17,28 +13,20 @@ h2 {
 }
 
 h3 {
-    margin-bottom: 4px;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
 }
 
 h5 {
     font-weight: lighter;
-    color: #444;
+    color: #3A144D;
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 0.2rem;
 }
 
-<<<<<<< HEAD
-h5{
-    color: #7E459B;
-
-} 
-
-
 p {
-=======
-p , h5{
->>>>>>> 07ffa63806adeb2b2cfdbeddcf200a927ed80348
     color: #7E459B;
+    text-align: justify;
 }
 
 ul li{
@@ -47,14 +35,6 @@ ul li{
 
 address a {
     color: white;
-}
-
-li {
-    padding: 3.2px 0;
-}
-
-li img {
-    vertical-align: middle;
 }
 
 .background-DEBBDD {
@@ -271,5 +251,8 @@ main {
     background-color: #7E459B;
 }
 /* #endregion */
+footer{
+    min-height: 10vh;
+}
 
 /* #endregion */

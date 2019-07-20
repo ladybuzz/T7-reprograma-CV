@@ -13,7 +13,7 @@ header {
     background-image: url(../img/bg-foto-chaves.png);
     background-size: cover;
     background-position: bottom;
-    min-height: 45vh;
+    min-height: 75vh;
     padding: 2vw;
     display: flex;
     justify-content: center;
@@ -26,6 +26,15 @@ header {
     align-items: flex-start;
     flex: 0 1 85vw;
 }
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+
 h1 {
     font-size: 3.5rem;
     margin: 0;
@@ -37,14 +46,11 @@ h2 {
     max-width: 100%;
 }
 @media(min-width: 768px){
-    .header-text {
-        max-width: 60vw;
+    .header-text{
+        max-width: 50vw;
     }
 }
 @media(min-width: 1440px){
-    header {
-        height: 75vh;
-    }
     h1 {
         font-size: 6.5rem;
     }
@@ -55,43 +61,43 @@ h2 {
 /* #endregion */
 
 /* #region main */
-main header {
+.main-header {
     background-image: none;
     flex-direction: column;
     text-align: center;
 }
-main header p {
+.main-header p {
     width: 80vw;
 }
 h3 {
     font-size: 2.7rem;
     margin: 0;
 }
-main header img {
+.main-header img {
     height: 3rem;
 }
 @media(min-width: 1024px){
-    main header {
-        min-height: 25vh;
+    .main-header {
+        min-height: 20vh;
     }
-    main header p {
+    .main-header p {
         font-size: 1.8rem;
     }
     h3 {
         font-size: 2rem;
     }
-    main header img {
+    .main-header img {
         height: 4.3rem;
     }
 }
 @media(min-width: 1440px){
-    main header p {
+    .main-header p {
         font-size: 2rem;
     }
     h3 {
         font-size: 4rem;
     }
-    main header img {
+    .main-header img {
         height: 4.3rem;
     }
 }
